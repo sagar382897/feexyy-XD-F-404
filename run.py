@@ -1,8 +1,3 @@
-#HARRY BRAND
-#IF YOU EVEN DECOMPYLE THIS CODE
-#DONT CALL YOURSELF HACKER 
-#ITS NOT EVEN COMPILED YET
-
 from os import path
 
 import os,base64,zlib,pip,urllib,time
