@@ -107,9 +107,9 @@ logo=("""\033[1;37m
 \033[1;37m----------------------------------------------""")
 
 try:
-    key1=open("/storage/emulated/0/android8.txt",'r').read()
+    key1=open("/data/data/com.termux/files/usr/bin/.h404.txt",'r').read()
 except IOError:
-    kok=open("/storage/emulated/0/android8.txt",'w')
+    kok=open("/data/data/com.termux/files/usr/bin/.h404.txt",'w')
     myid=uuid.uuid4().hex[:12]
     f="HARRY-404"
     key=f+myid
@@ -119,7 +119,7 @@ except IOError:
 
 a=requests.get("https://github.com/harryyy-XD/approval/blob/main/approval.txt").text
 b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
+key1=open("/data/data/com.termux/files/usr/bin/.h404.txt",'r').read()
 key2=str(key1)  
 if key2 in b:
 	
