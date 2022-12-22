@@ -9,7 +9,11 @@ import os,base64,zlib,pip,urllib
 
 os.system('git pull')
 
+os.system('clear')
+
 print('\n\033[1;37m install modules...\n It will take some seconds...')
+
+os.system('clear')
 
 try:
 
